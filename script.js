@@ -27,5 +27,10 @@ function showMenu() {
 showSpecific();
 
 function showSpecific() {
-console.log(menu[5]);
+    console.log(menu[5]);
+}
+returnMenuItem();
+
+function returnMenuItem(){
+    return menu[9];
 }
