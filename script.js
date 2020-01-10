@@ -17,3 +17,7 @@ let menu = [
     "Lasagne met room, doperwten en tomatensaus",
     "Lasagne met spinazie en tomatensaus en kaas"
 ];
+showMenu();
+function showMenu(){
+    
+}
