@@ -18,9 +18,14 @@ let menu = [
     "Lasagne met spinazie en tomatensaus en kaas"
 ];
 showMenu();
-function showMenu(){
-    for (item in menu){
+
+function showMenu() {
+    for (item in menu) {
         console.log(menu[item]);
     }
 }
+showSpecific();
 
+function showSpecific() {
+console.log(menu[5]);
+}
