@@ -19,5 +19,7 @@ let menu = [
 ];
 showMenu();
 function showMenu(){
-    
+    for (item in menu){
+        console.log(menu[item]);
+    }
 }
