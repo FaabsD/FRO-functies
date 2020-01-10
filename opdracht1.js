@@ -34,3 +34,8 @@ returnMenuItem();
 function returnMenuItem(){
     return menu[9];
 }
+showOneToFive();
+
+function showOneToFive() {
+    console.log(menu[1]+" "+ menu[2] +" "+menu[3] +" "+menu[4] +" "+menu[5]);
+}
