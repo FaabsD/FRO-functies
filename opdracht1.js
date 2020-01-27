@@ -29,10 +29,10 @@ showSpecific(5);
 function showSpecific(number) {
     console.log(menu[number]);
 }
-returnMenuItem();
+returnMenuItem(9);
 
-function returnMenuItem(){
-    return menu[9];
+function returnMenuItem(number){
+    return menu[number];
 }
 showOneToFive();
 
