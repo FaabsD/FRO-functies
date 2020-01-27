@@ -24,10 +24,10 @@ function showMenu() {
         console.log(menu[item]);
     }
 }
-showSpecific();
+showSpecific(5);
 
-function showSpecific() {
-    console.log(menu[5]);
+function showSpecific(number) {
+    console.log(menu[number]);
 }
 returnMenuItem();
 
