@@ -17,25 +17,27 @@ let menu = [
     "Lasagne met room, doperwten en tomatensaus",
     "Lasagne met spinazie en tomatensaus en kaas"
 ];
-showMenu();
+// showMenu();
 
-function showMenu() {
-    for (item in menu) {
-        console.log(menu[item]);
+// function showMenu() {
+//     for (item in menu) {
+//         console.log(menu[item]);
+//     }
+// }
+// showSpecific(5);
+
+// function showSpecific(number) {
+//     console.log(menu[number]);
+// }
+// returnMenuItem(9);
+
+// function returnMenuItem(number){
+//     return menu[number];
+// }
+showOneToFive(5);
+
+function showOneToFive(number) {
+    for (let i=0; i<number; i++){
+        console.log(menu[number+i]);
     }
-}
-showSpecific(5);
-
-function showSpecific(number) {
-    console.log(menu[number]);
-}
-returnMenuItem(9);
-
-function returnMenuItem(number){
-    return menu[number];
-}
-showOneToFive();
-
-function showOneToFive() {
-    console.log(menu[1]+" "+ menu[2] +" "+menu[3] +" "+menu[4] +" "+menu[5]);
 }
