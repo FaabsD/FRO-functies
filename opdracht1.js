@@ -17,23 +17,23 @@ let menu = [
     "Lasagne met room, doperwten en tomatensaus",
     "Lasagne met spinazie en tomatensaus en kaas"
 ];
-// showMenu();
+showMenu();
 
-// function showMenu() {
-//     for (item in menu) {
-//         console.log(menu[item]);
-//     }
-// }
-// showSpecific(5);
+function showMenu() {
+    for (item in menu) {
+        console.log(menu[item]);
+    }
+}
+showSpecific(5);
 
-// function showSpecific(number) {
-//     console.log(menu[number]);
-// }
-// returnMenuItem(9);
+function showSpecific(number) {
+    console.log(menu[number]);
+}
+returnMenuItem(9);
 
-// function returnMenuItem(number){
-//     return menu[number];
-// }
+function returnMenuItem(number){
+    return menu[number];
+}
 showOneToFive(5);
 
 function showOneToFive(number) {
