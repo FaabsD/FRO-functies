@@ -17,3 +17,19 @@ let menu = [
     "Lasagne met room, doperwten en tomatensaus",
     "Lasagne met spinazie en tomatensaus en kaas"
 ];
+
+orderedList();
+
+function orderedList(){
+    // Maak een Ordered list element aan
+    let ol = document.createElement('ol');
+    // pas de ol toe op de container
+    document.getElementById('container').appendChild(ol);
+    
+    for (item in menu){
+        let li = document.createElement('li');
+        ol.appendChild(li);
+        li.innerHTML = menu[item];
+        
+    }
+}
